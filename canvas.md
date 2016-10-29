@@ -10,7 +10,8 @@ HTML5 <canvas> 元素用于图形的绘制，通过脚本 (通常是JavaScript)�
 注意: Internet Explorer 8 及更早 IE 版本的浏览器不支持 <canvas> 元素.
 
 实例
-```html
+
+```
 <canvas id="myCanvas" width="200" height="100"
 style="border:1px solid #000000;">
 </canvas>
@@ -18,7 +19,9 @@ style="border:1px solid #000000;">
 canvas 元素本身是没有绘图能力的。所有的绘制工作必须在 JavaScript 内部完成：
 
 实例
+
 ```js
+
 <script>
 var c=document.getElementById("myCanvas"); //找到 <canvas> 元素:
 var ctx=c.getContext("2d");//创建 context 对象：
@@ -45,6 +48,7 @@ ctx.drawImage(img,10,10);
 以下有两种不同的方式来设置Canvas渐变：
 
 - createLinearGradient(x,y,x1,y1) - 创建线条渐变
+
 - createRadialGradient(x,y,r,x1,y1,r1) - 创建一个径向/圆渐变
 
 当我们使用渐变对象，必须使用两种或两种以上的停止颜色。
@@ -54,6 +58,7 @@ addColorStop()方法指定颜色停止，参数使用坐标来描述，可以是
 使用渐变，设置fillStyle或strokeStyle的值为 渐变，然后绘制形状，如矩形，文本，或一条线。
 
 使用 createLinearGradient():
+
 ```js
 JavaScript:
 var c=document.getElementById("myCanvas");

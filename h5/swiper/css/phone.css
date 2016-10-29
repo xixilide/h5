@@ -19,12 +19,12 @@ html,body,.swiper-container,.swiper-wrapper{
 
 }
 .slide1{
-  background-image: url(../img/q1.jpg);
+  background-image: url(../img/t1.jpg);
   text-align: center;
   padding-top: 50px;
 }
 .slide1 p{
-  color: #000;
+  color: #212121;
   font-size: 2em;
 
 }
@@ -38,10 +38,10 @@ html,body,.swiper-container,.swiper-wrapper{
   margin: 0 auto;
 }
 .slide2{
-  background-image: url(../img/q2.jpg);
+  background-image: url(../img/t4.jpg);
 }
 .slide3{
-  background-image: url(../img/q3.jpg);
+  background-image: url(../img/t5.jpg);
 }
 .arrow{
   position: fixed;
